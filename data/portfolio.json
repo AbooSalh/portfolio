@@ -1,0 +1,190 @@
+{
+  "personal": {
+    "name": "Ahmed Saleh",
+    "initials": "AS",
+    "email": "me@abosaleh.site",
+    "phone": "+20 115 164 4301",
+    "location": "Sharm El Sheikh, Egypt",
+    "role": "Backend & Full-Stack Engineer focused on APIs, systems, and reliability",
+    "subtitle": "Shipping production software with scalable APIs and maintainable architecture.",
+    "profilePhoto": "/images/profile.jpg",
+    "resumeUrl": "/resume.pdf",
+    "social": {
+      "github": "https://github.com/AbooSalh",
+      "linkedin": "https://www.linkedin.com/in/ahmed-saleh-swe/",
+      "email": "a.saleh.dev@gmail.com"
+    }
+  },
+  "nav": [
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Principles", "href": "#principles" },
+    { "label": "Education", "href": "#education" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "projects": [
+    {
+      "id": "paradise-sharm",
+      "title": "Paradise Sharm Tours",
+      "featured": true,
+      "role": "Full-Stack Developer (Freelance)",
+      "period": "Jan 2025 – Present",
+      "url": "https://paradisesharm.com",
+      "github": null,
+      "stack": ["Next.js", "Express.js", "MongoDB", "Docker", "Traefik", "Prometheus", "Grafana"],
+      "highlights": [
+        "Designed, built, and deployed a production tour platform with Docker Compose on a VPS with automated SSL/TLS",
+        "Implemented Prometheus/Grafana monitoring and k6 load testing (220 concurrent VUs, 2-hour soak tests)",
+        "Automated daily MongoDB backups with 7-day retention and one-command redeployment",
+        "Achieved 91 Performance, 100 Accessibility, and 92 Best Practices on Lighthouse"
+      ],
+      "metrics": [
+        { "value": "115+", "label": "monthly active users" },
+        { "value": "6", "label": "countries" },
+        { "value": "91", "label": "Lighthouse Performance" },
+        { "value": "100", "label": "Lighthouse A11y" }
+      ],
+      "links": [
+        { "label": "Live Site", "url": "https://paradisesharm.com" }
+      ]
+    },
+    {
+      "id": "cairo-transport",
+      "title": "Cairo Transportation Network",
+      "featured": false,
+      "role": "Personal Project",
+      "period": "2025",
+      "url": "https://gcts.abosaleh.site",
+      "github": null,
+      "stack": ["C#", ".NET", "Next.js", "SQLite", "EF Core", "Leaflet"],
+      "highlights": [
+        "Engineered a smart-city routing platform processing 35 locations and 74 roads using A* emergency routing (39% faster than Dijkstra, 40% fewer node expansions)",
+        "Implemented 0/1 Knapsack DP for maintenance budget optimization (42% improvement over greedy, serving 78.5% transit demand with 50 vehicles)",
+        "Built ASP.NET Core REST API with IMemoryCache (<1ms graph retrieval) and Next.js interactive Leaflet map",
+        "Achieved <2ms average algorithm response time with automated CI/CD via GitHub Actions"
+      ],
+      "metrics": [
+        { "value": "39%", "label": "faster than Dijkstra" },
+        { "value": "<2ms", "label": "average response" }
+      ],
+      "links": [
+        { "label": "Live Demo", "url": "https://gcts.abosaleh.site" },
+        { "label": "GitHub", "url": "https://github.com/AbooSalh" }
+      ]
+    },
+    {
+      "id": "ecommerce-api",
+      "title": "E-commerce API",
+      "featured": false,
+      "role": "Personal Project",
+      "period": "2025",
+      "url": "https://github.com/AbooSalh/ecommerce-api-expressjs",
+      "github": "https://github.com/AbooSalh/ecommerce-api-expressjs",
+      "stack": ["TypeScript", "Node.js", "Express", "MongoDB", "Stripe"],
+      "highlights": [
+        "Built production-ready REST API with 8+ modules (products, orders, cart, reviews, coupons) featuring Stripe payment integration with webhook handling",
+        "Implemented BaseController pattern for DRY CRUD operations reducing boilerplate across all modules",
+        "Hardened security with Helmet, NoSQL injection protection, HPP, rate limiting, and JWT authentication with MFA-protected account deletion"
+      ],
+      "metrics": [
+        { "value": "8+", "label": "API modules" },
+        { "value": "95%", "label": "TypeScript coverage" }
+      ],
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/AbooSalh/ecommerce-api-expressjs" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Paradise Sharm Tours",
+      "role": "Full-Stack Developer (Freelance)",
+      "period": "Jan 2025 – Present",
+      "url": "https://paradisesharm.com",
+      "bullets": [
+        "Designed, built, and deployed a production tour platform using Docker Compose on a VPS with automated SSL/TLS",
+        "Implemented Prometheus/Grafana monitoring and k6 load testing (220 concurrent VUs, 2-hour soak tests)",
+        "Automated daily MongoDB backups with 7-day retention and one-command redeployment with validation checks",
+        "Achieved 91 Performance / 100 Accessibility Lighthouse scores with 0.9s FCP"
+      ]
+    },
+    {
+      "company": "AIU ICPC Community",
+      "role": "Technical Head",
+      "period": "Apr 2026 – Present",
+      "url": null,
+      "bullets": [
+        "Designing and developing a Codeforces-style online training platform with problem archives, live contests, real-time rankings, and user profiles",
+        "Leading technical direction for a community of 50+ competitive programmers"
+      ]
+    },
+    {
+      "company": "AIU ICPC Community",
+      "role": "Technical Volunteer",
+      "period": "2024 – Present",
+      "url": null,
+      "bullets": [
+        "Supporting competitive programming practice, algorithm discussion, and technical peer help for students"
+      ]
+    }
+  ],
+  "skills": {
+    "Languages": ["TypeScript", "JavaScript", "C#", "Java", "SQL"],
+    "Frontend": ["React", "Next.js", "Tailwind CSS", "Framer Motion", "Radix UI", "HTML", "CSS"],
+    "Backend": ["Node.js", "Express", ".NET", "ASP.NET", "REST APIs", "JWT", "RBAC"],
+    "DevOps & Infrastructure": ["Docker", "Docker Compose", "Traefik", "Cloudflare", "Linux", "Bash", "Portainer"],
+    "Monitoring & Analytics": ["Prometheus", "Grafana", "k6", "PostHog", "Google Analytics"],
+    "Testing & Quality": ["Jest", "Supertest", "SonarQube", "Husky", "ESLint", "Prettier"]
+  },
+  "principles": [
+    {
+      "icon": "FileJson",
+      "title": "Design Contracts First",
+      "description": "Define data models and error contracts before writing implementation code."
+    },
+    {
+      "icon": "IterationCw",
+      "title": "Build Iteratively",
+      "description": "Ship small, testable slices with clear acceptance criteria at each step."
+    },
+    {
+      "icon": "Shield",
+      "title": "Automate Guardrails",
+      "description": "Linters, formatters, and tests keep code healthy without manual effort."
+    },
+    {
+      "icon": "FileText",
+      "title": "Document Essentials",
+      "description": "README, API endpoints, environment variables, and deployment runbooks."
+    }
+  ],
+  "education": {
+    "institution": "Alamein International University (AIU)",
+    "location": "Alexandria, Egypt",
+    "degree": "B.Sc. in Computer Science",
+    "period": "Expected May 2027",
+    "coursework": [
+      "Data Structures and Algorithms",
+      "System Design and Analysis",
+      "Advanced Database Systems",
+      "Information Security"
+    ],
+    "gpa": null
+  },
+  "certifications": [
+    {
+      "name": "Object-Oriented Programming Using Java",
+      "issuer": "ITI (Information Technology Institute)",
+      "note": "24 training hours, project-based with HackerRank assessment"
+    }
+  ],
+  "contact": {
+    "responseTime": "Within 24 hours",
+    "cta": "I'm always open to new opportunities, collaborations, and conversations. If you have a project in mind or just want to connect, reach out."
+  },
+  "footer": {
+    "quote": "Simplicity is prerequisite for reliability.",
+    "quoteAuthor": "Edsger W. Dijkstra"
+  }
+}
