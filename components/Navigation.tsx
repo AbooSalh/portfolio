@@ -22,6 +22,7 @@ export default function Navigation() {
     <motion.nav
       initial={{ y: -20, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
+      aria-label="Main navigation"
       className={`fixed top-4 left-4 right-4 z-50 transition-all duration-300 max-w-6xl mx-auto
         ${scrolled ? "bg-surface-elevated/90 backdrop-blur-md shadow-lg" : "bg-transparent"}
         rounded-2xl border ${scrolled ? "border-border" : "border-transparent"}
@@ -31,15 +32,17 @@ export default function Navigation() {
         <a
           href="#home"
           className="text-xl font-bold font-heading text-accent hover:text-accent-hover transition-colors"
+          aria-label="Go to top"
         >
           {personal.initials}
         </a>
 
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-8" role="menubar">
           {navItems.map((item) => (
             <a
               key={item.href}
               href={item.href}
+              role="menuitem"
               className="text-sm text-text-muted hover:text-text-primary transition-colors"
             >
               {item.label}

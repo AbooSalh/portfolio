@@ -5,7 +5,7 @@ const personal = getPersonal()
 
 export default function Footer() {
   return (
-    <footer className="border-t border-border py-8">
+    <footer className="border-t border-border py-8" role="contentinfo">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-text-muted">
