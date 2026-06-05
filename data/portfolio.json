@@ -2,7 +2,7 @@
   "personal": {
     "name": "Ahmed Saleh",
     "initials": "AS",
-    "email": "me@abosaleh.site",
+    "email": "a.saleh.dev@gmail.com",
     "phone": "+20 115 164 4301",
     "location": "Sharm El Sheikh, Egypt",
     "role": "Backend & Full-Stack Engineer focused on APIs, systems, and reliability",
@@ -40,7 +40,7 @@
         "Achieved 91 Performance, 100 Accessibility, and 92 Best Practices on Lighthouse"
       ],
       "metrics": [
-        { "value": "115+", "label": "monthly active users" },
+        { "value": "174+", "label": "monthly active users" },
         { "value": "6", "label": "countries" },
         { "value": "91", "label": "Lighthouse Performance" },
         { "value": "100", "label": "Lighthouse A11y" }
@@ -59,10 +59,8 @@
       "github": null,
       "stack": ["C#", ".NET", "Next.js", "SQLite", "EF Core", "Leaflet"],
       "highlights": [
-        "Engineered a smart-city routing platform processing 35 locations and 74 roads using A* emergency routing (39% faster than Dijkstra, 40% fewer node expansions)",
-        "Implemented 0/1 Knapsack DP for maintenance budget optimization (42% improvement over greedy, serving 78.5% transit demand with 50 vehicles)",
-        "Built ASP.NET Core REST API with IMemoryCache (<1ms graph retrieval) and Next.js interactive Leaflet map",
-        "Achieved <2ms average algorithm response time with automated CI/CD via GitHub Actions"
+        "Engineered a smart-city routing platform processing 35 locations and 74 roads across Greater Cairo using A* emergency routing (39% faster than Dijkstra, 40% fewer node expansions) and 0/1 Knapsack DP for maintenance budget optimization (42% improvement over greedy, serving 78.5% transit demand with 50 vehicles)",
+        "Built a modular monolith ASP.NET Core REST API with IMemoryCache (<1ms graph retrieval), Next.js interactive Leaflet map, and automated CI/CD via GitHub Actions, achieving <2ms average algorithm response time"
       ],
       "metrics": [
         { "value": "39%", "label": "faster than Dijkstra" },
@@ -83,9 +81,8 @@
       "github": "https://github.com/AbooSalh/ecommerce-api-expressjs",
       "stack": ["TypeScript", "Node.js", "Express", "MongoDB", "Stripe"],
       "highlights": [
-        "Built production-ready REST API with 8+ modules (products, orders, cart, reviews, coupons) featuring Stripe payment integration with webhook handling",
-        "Implemented BaseController pattern for DRY CRUD operations reducing boilerplate across all modules",
-        "Hardened security with Helmet, NoSQL injection protection, HPP, rate limiting, and JWT authentication with MFA-protected account deletion"
+        "Built a production-ready ecommerce REST API with 8+ modules (products, orders, cart, reviews, coupons) featuring Stripe payment integration with webhook handling and email verification flows",
+        "Implemented BaseController pattern for DRY CRUD operations, JWT authentication with MFA-protected account deletion, and hardened security (Helmet, NoSQL injection protection, HPP, rate limiting, input sanitization)"
       ],
       "metrics": [
         { "value": "8+", "label": "API modules" },
@@ -99,14 +96,15 @@
   "experience": [
     {
       "company": "Paradise Sharm Tours",
-      "role": "Full-Stack Developer (Freelance)",
+      "role": "Full-Stack Developer",
       "period": "Jan 2025 – Present",
       "url": "https://paradisesharm.com",
       "bullets": [
-        "Designed, built, and deployed a production tour platform using Docker Compose on a VPS with automated SSL/TLS",
-        "Implemented Prometheus/Grafana monitoring and k6 load testing (220 concurrent VUs, 2-hour soak tests)",
-        "Automated daily MongoDB backups with 7-day retention and one-command redeployment with validation checks",
-        "Achieved 91 Performance / 100 Accessibility Lighthouse scores with 0.9s FCP"
+        "Architected and deployed paradisesharm.com, a multi-language (EN/AR/RU/DE/IT) tour booking platform using Next.js, Express.js, MongoDB, and Traefik with automated SSL/TLS, serving 174 MAU across 6 countries (US, EG, IT, IE, SE, UK)",
+        "Built observability stack with Prometheus, Grafana, and k6 stress testing (up to 220 concurrent VUs, 2-hour soak tests) enabling proactive performance regression detection before deployment",
+        "Integrated Google Analytics, PostHog, and Plerdy across the platform, tracking behavioral funnels for 651 total users and surfacing conversion drop-off insights that informed two UX iterations",
+        "Optimized frontend to achieve 91 Performance, 100 Accessibility, and 92 Best Practices Lighthouse scores with 0.9s FCP and 0 cumulative layout shift",
+        "Hardened application security with RBAC, JWT refresh token rotation, and rate limiting; implemented automated daily MongoDB backups with 7-day retention policy"
       ]
     },
     {
@@ -115,7 +113,7 @@
       "period": "Apr 2026 – Present",
       "url": null,
       "bullets": [
-        "Designing and developing a Codeforces-style online training platform with problem archives, live contests, real-time rankings, and user profiles",
+        "Architecting and developing a full-stack competitive programming platform for a 600-member ICPC community using Next.js and Node.js, featuring problem archives, live contests with real-time leaderboards, and user rating profiles",
         "Leading technical direction for a community of 50+ competitive programmers"
       ]
     },
@@ -125,16 +123,17 @@
       "period": "2024 – Present",
       "url": null,
       "bullets": [
-        "Supporting competitive programming practice, algorithm discussion, and technical peer help for students"
+        "Supporting competitive programming practice, algorithm discussion, and technical peer help for students in a 600-member ICPC community"
       ]
     }
   ],
   "skills": {
-    "Languages": ["TypeScript", "JavaScript", "C#", "Java", "SQL"],
-    "Frontend": ["React", "Next.js", "Tailwind CSS", "Framer Motion", "Radix UI", "HTML", "CSS"],
-    "Backend": ["Node.js", "Express", ".NET", "ASP.NET", "REST APIs", "JWT", "RBAC"],
-    "DevOps & Infrastructure": ["Docker", "Docker Compose", "Traefik", "Cloudflare", "Linux", "Bash", "Portainer"],
-    "Monitoring & Analytics": ["Prometheus", "Grafana", "k6", "PostHog", "Google Analytics"],
+    "Languages": ["TypeScript", "C#", "JavaScript", "Java", "Python", "SQL", "HTML", "CSS"],
+    "Frontend": ["Next.js", "React", "React Query", "Tailwind CSS", "Framer Motion", "Radix UI"],
+    "Backend": ["Node.js", "Express.js", ".NET", "ASP.NET Core", "REST APIs"],
+    "Databases": ["MongoDB", "MariaDB", "MySQL", "PostgreSQL", "SQLite"],
+    "DevOps & Infrastructure": ["Docker", "Docker Compose", "Traefik", "Cloudflare", "Portainer", "pnpm", "Linux", "Bash"],
+    "Monitoring & Analytics": ["Prometheus", "Grafana", "k6", "Google Analytics", "PostHog", "Plerdy"],
     "Testing & Quality": ["Jest", "Supertest", "SonarQube", "Husky", "ESLint", "Prettier"]
   },
   "principles": [
@@ -162,13 +161,14 @@
   "education": {
     "institution": "Alamein International University (AIU)",
     "location": "Alexandria, Egypt",
-    "degree": "B.Sc. in Computer Science",
+    "degree": "Bachelor of Science (B.Sc.), Computer Science",
     "period": "Expected May 2027",
     "coursework": [
       "Data Structures and Algorithms",
-      "System Design and Analysis",
+      "System Design",
       "Advanced Database Systems",
-      "Information Security"
+      "Information Security",
+      "Object-Oriented Programming"
     ],
     "gpa": null
   },
@@ -176,7 +176,7 @@
     {
       "name": "Object-Oriented Programming Using Java",
       "issuer": "ITI (Information Technology Institute)",
-      "note": "24 training hours, project-based with HackerRank assessment"
+      "note": "24 training hours, project-based with HackerRank assessment (Jul-Aug 2025)"
     }
   ],
   "contact": {
